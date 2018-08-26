@@ -1,5 +1,84 @@
 * { padding: 0; margin: 0 }
 
 body {
-  background-color: #FFDAF3;
+  background-color: #F5D6DC;
+  height: 100%;
+}
+
+.splash-body {
+  display: flex;
+  justify-content: center;
+  background: url(./lips-cropped.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+  height: 100vh;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: block;
+  font-size: 48px;
+  font-family: 'Shrikhand', cursive;
+  color: #fff;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  background: #000;
+  margin-top: 22%;
+  padding: 0 5px;
+  transition: .3s ease;
+}
+
+.title:hover {
+  cursor: pointer;
+  /* transform: scale(.8); */
+  box-shadow: 15px 15px orange;
+  transition: .3s ease;
+}
+
+
+.social {
+  height: 52px;
+  width: 52px;
+  background: url(./facebook-square.png);
+  background-size: cover;
+  margin-bottom: 15%;
+  transition: .3s ease;
+}
+
+.social:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); */
+  box-shadow: 10px 10px orange;
+  transition: .3s ease;
+}
+
+
+
+@media screen and (max-width: 720px) {
+  .splash-body {
+    width: 100%;
+  }
+  .title:hover {
+    box-shadow: none;
+    transition: 0;
+  }
+  .social:hover {
+    box-shadow: none;
+    transition: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 36px;
+  }
 }
