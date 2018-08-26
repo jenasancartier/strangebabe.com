@@ -76,6 +76,9 @@ body {
     box-shadow: none;
     transition: 0;
   }
+  .social {
+    margin-bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 420px) {
