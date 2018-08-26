@@ -49,7 +49,8 @@ body {
 .social {
   height: 52px;
   width: 52px;
-  background: url(./facebook-square.png);
+  background-image: url(./facebook-square.png);
+  background-color: #fff;
   background-size: cover;
   margin-bottom: 15%;
   transition: .3s ease;
@@ -59,6 +60,7 @@ body {
   cursor: pointer;
   /* transform: scale(1.1); */
   box-shadow: 10px 10px orange;
+  background-color: orange;
   transition: .3s ease;
 }
 
