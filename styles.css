@@ -67,6 +67,7 @@ body {
 @media screen and (max-width: 720px) {
   .splash-body {
     width: 100%;
+    margin-top: -30px;
   }
   .title:hover {
     box-shadow: none;
